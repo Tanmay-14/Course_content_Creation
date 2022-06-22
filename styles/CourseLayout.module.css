@@ -1,0 +1,53 @@
+.course_layout__hldr{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+.page__hldr{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.course__render{
+    flex: 0.8;
+    padding: 0 3.5em 0 2em;
+    border-right: 1px solid #111;
+    overflow-y: scroll;
+    padding-bottom: 5em;
+}
+
+.buts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.buts button{
+    cursor: pointer;
+    margin: 1em 0;
+    font-size: 1em;
+    font-weight: 500;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    transition: 0.3s all ease;
+    font-family: Inter, "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "EB Garamond", serif, "Craftwork Sans";;
+}
+
+.buts button:hover{
+    box-shadow: 0 7px 20px -6px #777;
+}
+
+.buts button:disabled{
+/* .buts button[disabled]{ */
+  border: 1px solid #999999;
+  background-color: #f30000;
+  color: #666666;
+}

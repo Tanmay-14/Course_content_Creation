@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.sidebar__hldr{
+    max-width: 320px;
+    width: 320px;
+    height: 90vh;
+    margin-left: 10em;
+    margin-right: 2em;
+    padding: 0em 0em 2em 2em;
+    text-align: left;
+    border-right: 1px solid #888;
+    font-family: Inter, "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "EB Garamond", serif, "Craftwork Sans";
+}
+
+.sidebar__hldr h3{
+    font-size: 1em;
+    font-weight: 700;
+    color: #1A202C;
+}
+
+.flex__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.classes{
+    padding: 0.8em 0;
+    cursor: pointer;
+}
+
+.section__links{
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section__links:focus,
+.section__links:hover {
+    color: #111;
+    text-decoration: underline;
+}
